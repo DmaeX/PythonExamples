@@ -37,42 +37,50 @@
 # height_inch3 = 60
 
 
+# print ("Enter your name. ")
+# name = input()
+# print ("Hello " + name + ", tell me your weight. ")
+# weight_lbs = int(input())
+# print ("Thanks, now tell me your height in feet inches, separated by a comma. ")
+# height_str = input()
+# height = height_str.split(',')
+# feet = int(height[0])
+# inches = int(height[1])
+# tot_inches = feet*12 + inches
+# print("Awesome, you are " + str(tot_inches) + " inches tall!")
+
+# def bmiResults(name, weight_pounds, height_inches):
+#     bmi = weight_pounds / (height_inches**2) * 703
+
+#     if bmi <= 25: 
+#         return name + ", your BMI is " + str(bmi) + ". You are not overweight."
+#     elif bmi <= 18:
+#         return name + ", your BMI is " + str(bmi) + ".  You are underweight."
+#     else:
+#         return name + ", your BMI is " + str(bmi) + ". You are overweight... Damn go see a doctor!"
 
 
+# result1 = bmiResults(name, weight_lbs, tot_inches)
 
-print ("Enter your name. ")
-name = input()
-print ("Hello " + name + ", tell me your weight. ")
-weight_lbs = int(input())
-print ("Thanks, now tell me your height in feet inches, separated by a comma. ")
-height_str = input()
-height = height_str.split(',')
-feet = int(height[0])
-inches = int(height[1])
-tot_inches = feet*12 + inches
-print("Awesome, you are " + str(tot_inches) + " inches tall!")
-
-def bmiResults(name, weight_pounds, height_inches):
-    bmi = weight_pounds / (height_inches**2) * 703
-
-    if bmi <= 25: 
-        return name + ", your BMI is " + str(bmi) + ". You are not overweight."
-    elif bmi <= 18:
-        return name + ", your BMI is " + str(bmi) + ".  You are underweight."
-    else:
-        return name + ", your BMI is " + str(bmi) + ". You are overweight... Damn go see a doctor!"
-
-
-result1 = bmiResults(name, weight_lbs, tot_inches)
-
-print(result1)
-print()
-
-
-# print(result2)
+# print(result1)
 # print()
-# print(result3)
-# print()
+
+
+num_1 = 20 
+num_2 = 30
+num_3 = 40
+
+def threeNumbers(num_1, num_2, num_3):
+    sumOfThree = num_1 + num_2 + num_3
+    return sumOfThree
+
+    totalOfEverything = sumOfThree(2, 3, 4)
+    return totalOfEverything
+    print()
+
+
+
+
 
 
 

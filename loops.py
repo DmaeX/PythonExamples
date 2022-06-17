@@ -49,14 +49,27 @@
 #         print(end = ' ')
 
 
-# Does the placement of the operator and the print statement matter. I noticed that the result changed. Run code: 
-i = 1 
-while i < 6: 
-    i += 1
-    print(i)
+# # Does the placement of the operator and the print statement matter. I noticed that the result changed. Run code: 
+# i = 1 
+# while i < 6: 
+#     i += 1
+#     print(i)
     
 
-i = 1 
-while i < 6: 
-    print(i)   
-    i += 1 
+# i = 1 
+# while i < 6: 
+#     print(i)   
+#     i += 1 
+
+
+
+# couples = [
+#     ["Clarissa", "Daylen"], 
+#     ["Victoria", "Brandon"], 
+#     ["Donna Mae", "Ronan"]
+# ]
+
+# for couple in couples:
+#     for name in couple:
+#         for c in name:
+#             print(c)
