@@ -66,27 +66,137 @@
 # print()
 
 
-num_1 = 20 
-num_2 = 30
-num_3 = 40
+# num_1 = 20 
+# num_2 = 30
+# num_3 = 40
 
-def threeNumbers(num_1, num_2, num_3):
-    sumOfThree = num_1 + num_2 + num_3
-    return sumOfThree
+# def threeNumbers(num_1, num_2, num_3):
+#     sumOfThree = num_1 + num_2 + num_3
+#     return sumOfThree
 
-    totalOfEverything = sumOfThree(2, 3, 4)
-    return totalOfEverything
-    print()
-
-
-
+# totalOfEverything = threeNumbers(2, 3, 4)
+# totalOfEverything1 = totalOfEverything / num_2
+# print(totalOfEverything1)
+# print()
 
 
 
+# people = ["Clarissa", "DM", "Ronan", "Gian"]
+
+# def favoritePerson(people): 
+#     for person in people:
+#         if "m" in person.lower():
+#             continue 
+#         elif "s" in person.lower():
+#             continue
+#         elif "i" in person.lower():
+#             break
+#         else: 
+#             return person 
+
+# nameOfFavoritePerson = favoritePerson(people)
+# print(nameOfFavoritePerson)
+
+
+# x = 20
+
+# def test_operation(x):
+#     return x * 7
 
 
 
 
+# numbers = [10, 20, 30, 40, 50, 55, 60, 70, 80, 85, 90, 100]
+
+# def evenNumbers(numbers):
+#     evens = []
+#     for number in numbers:
+#         if number % 2 == 0: 
+#             evens.append(number)
+#     return evens
+        
+# numWithEvenNumbers = evenNumbers(numbers)
+# print(evenNumbers(numbers))
 
   
+# numbers = [10, 20, 30, 40, 50, 55, 60, 70, 80, 85, 90, 100]
+
+# def oddNumbers(numbers):
+#     odds = []
+#     for number in numbers:
+#         if number % 2 == 1: 
+#             odds.append(number)
+#     return odds
+        
+# numWithOddNumbers = oddNumbers(numbers)
+# print(oddNumbers(numbers))
+
+
+
+# def greeting(name):
+#     print(f"Hello there, {name}!")
+
+# greeting("DM")
+
+
+# def addingSimpleNumbers(n1, n2):
+#     sumOfTwoNumbers = n1 + n2
+#     print(sumOfTwoNumbers)
+
+# number1 = 53.4
+# number2 = 43.6
+# addingSimpleNumbers(number1, number2)
+
+
+
+# def FunOperations(n1, n2, n3):
+#     totalForAll = n1 + (n2 * n3)
+#     print(f"This simple math returns something large such as this: {totalForAll}.")
+
+# number1 = 53.4
+# number2 = 43.6
+# number3 = 60
+# FunOperations(number1, number2, number3)
+
+
+
+# def FunOperations(n1, n2, n3):
+#     totalForAll = n1 + (n2 * n3)
+#     print (f"This simple math returns something large such as this: {totalForAll}.")
+
+# number1 = 53.4
+# number2 = 43.6
+# number3 = 60
+# FunOperations(number1, number2, number3)
+
+
+# def square(x): 
+#     y = x * x
+#     return y
+
+# print(square(4))
+
+
+# def square(x, y): 
+#     return x * y / x
+
+# print(square(4, 3))
+
+
+animals = ["cats", "dogs", "aligators", "tigers", "snakes"]
+
+def FavoriteAnimal(animals):
+    animal = []
+    for animal in animals: 
+        if 'd' in animal.lower():
+            continue 
+        elif 'g' in animal.lower(): 
+            continue
+        else:
+            print(f"Your favorite animal are {animal}.")
+        return animal
+
+MyFavoriteAnimal = FavoriteAnimal(animals) 
+     
+
 

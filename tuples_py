@@ -1,0 +1,10 @@
+"""
+Tuples are immutable. They can not be modified. 
+"""
+x = (1, 2, 3)
+index = x.index(1)
+print(index)
+
+y = (1, 2, 3)
+count = y.count(1)
+print(count)

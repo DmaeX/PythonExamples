@@ -23,3 +23,9 @@ myName = str("Donna Mae")
 print(type(myName))
 
 
+
+# Conversion
+number = float(input("Enter your number: "))
+result = number + 5
+print(f"This is your number: {result}")
+

@@ -34,6 +34,7 @@ x -= 4  # Subtract 4 from existing value of x
 x *= 4  # Multiply existing value by 4
 x /= 4  # Divide existing value by 4
 x %= 4  # Modulo existing value by 4
+x != 4  # Not equal to operator 
 
 
 

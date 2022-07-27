@@ -6,7 +6,7 @@
 #     print(num + 1)
 
 
-# For loops with range() is used toi execuute a block of code multiple times 
+# For loops with range() is used toi execute a block of code multiple times 
 
 # for i in range(4):
 #     print(i)
@@ -14,8 +14,8 @@
     
 
 
-# Nested for loops is used when the items that you are iterating cotains subitems (list within a list)
-#Triple nestted loop
+# Nested for loops is used when the items that you are iterating contains subitems (list within a list)
+#Triple nested loop
 
 # couples = [
 #     ["Clarissa", "Daylen"], 
